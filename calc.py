@@ -18,6 +18,10 @@ def t_FLOAT(t):
     r'\d+\.\d+'
     t.value = float(t.value)
     return t
+def p_error(p):
+    pass
+def t_error(t):
+    pass
 def t_INT(t):
     r'\d+'
     t.value = int(t.value)
